@@ -24,14 +24,17 @@ Result Display: At the end of the quiz, it displays You've completed the Quiz! a
 ss
 # File Structure
 
-css                # CSS folder
+css  # CSS folder for style elements
 
 
-js                 # JavaScript folder
-questions.js       # This consists of multiple quesitons each with one correct answer and three wrong answers.
-quizApp.js     # This consists of the timer, button functions, and score.
+js    # JavaScript folder
+
+questions.js  # This consists of multiple quesitons each with one correct answer and three wrong answers.
+
+quizApp.js  # This consists of the timer, button functions, and score.
 
 .gitignore         # Used to tell Git which files and directories to ignore when commiting the repository.
+
 index.html         # This is the landing page that creates all of the visual elements.
 
 # Setup Instructions
@@ -77,8 +80,7 @@ It should look like this
     ],
   },
 
-# You can create as many questions and answers as you want just make sure to 
-# assign the correct sequential number for the question. You can add however many questions you want!
+# You can create as many questions and answers as you want just make sure to assign the correct sequential number for the question. You can add however many questions you want!
 
 
 # QuizApp code functions

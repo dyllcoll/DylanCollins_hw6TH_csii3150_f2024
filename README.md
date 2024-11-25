@@ -2,7 +2,7 @@
 
 # Description: 
 
-This is a simple interactive quiz application built using HTML, CSS, and JavaScript. The app features a timer-based quiz where users have to answer questions within a time limit. It tracks their score and displays a result at the end of the quiz.
+This is a simple interactive quiz application built using HTML, CSS, and JavaScript. The app features a timer-based quiz where users have to answer questions within a time limit. It tracks their score and displays a result at the end of the quiz. 
 
 # Features
 
@@ -24,17 +24,15 @@ Result Display: At the end of the quiz, it displays You've completed the Quiz! a
 ss
 # File Structure
 
-# DemoQuizApp
-   |
-   | - css                # CSS folder
-   |   |-- style.css
-   |
-   | - js                 # JavaScript folder
-   |   |-- questions.js   # This consists of multiple quesitons each with one correct answer and three wrong answers.
-   |   |-- quizApp.js     # This consists of the timer, button functions, and score.
-   | 
-   | - .gitignore         # Used to tell Git which files and directories to ignore when commiting the repository.
-   | - index.html         # This is the landing page that creates all of the visual elements.
+css                # CSS folder
+
+
+js                 # JavaScript folder
+questions.js       # This consists of multiple quesitons each with one correct answer and three wrong answers.
+quizApp.js     # This consists of the timer, button functions, and score.
+
+.gitignore         # Used to tell Git which files and directories to ignore when commiting the repository.
+index.html         # This is the landing page that creates all of the visual elements.
 
 # Setup Instructions
 
